@@ -44,4 +44,62 @@ Maybe concentric rings?
 
 Actually, this is probably a timeline. Hmm. About that.
 
+---
+
 ## The plan, I hope
+
+### 1. Start from your Goal
+
+1. Why am I making this project?
+2. Who is this project for?
+3. What is going to make it valuable?
+
+Hobby/customer/portfolio
+
+### 2. User Stores
+
+1. Simple, short, user’s perspective. User centric. How does the app works for them.
+2. 10-20 stories, perhaps
+
+### 3. Define your data models
+
+* What to store
+* How it relates
+* How it is queried / used
+
+### 4. Nail an MVP
+
+Remove non-minimally viable stuff. Build the smallest things you can.
+
+### 5. Wire frame, simple UI, nav, and flow prototype
+
+Stick figures, boxes, arrows
+
+### 6. Understand what the future of the project will look like
+
+Will need to scale? Week end? Throw away?
+
+### 7. Drill in to essential components
+
+* UI?
+* Script?
+* BE?
+* FE?
+* Browser Extension?
+* …
+
+### 8. Pick the (simplest) stack
+
+How/where to deploy? What is the deployment path/steps?
+
+### 9. Overall dev process
+
+* Create project skeleton
+    * Basic folder structure (NPM mono repo, for example)
+    * Development environments
+    * Version control
+* Set up database and create data models
+* Build the backend routes
+    * API endpoints
+* Frontend interface
+

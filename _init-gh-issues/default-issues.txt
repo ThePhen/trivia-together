@@ -1,0 +1,60 @@
+Hello World for backend-node-ts
+Hello World for frontend-admin-react
+Hello World for frontend-client-react
+ReadMe & Hello World for perftest
+ReadMe & Hello World for other-kafka
+ReadMe & Hello World for devops-docker-compose
+ReadMe & Hello World for devops-k8s
+Hello World for other-spark
+Hello World for backend-dotnet
+Hello World for backend-flask
+Hello World for backend-spring-boot
+Hello World for db-mongodb
+Hello World for db-postgres
+Hello World for db-sqlite3
+Hello World for frontend-admin-aspnet
+Hello World for frontend-admin-blazor
+Hello World for frontend-admin-electron
+Hello World for frontend-client-android
+Hello World for frontend-client-aspnet
+Hello World for frontend-client-blazor
+Hello World for frontend-client-electron
+Hello World for frontend-client-ios
+Hello World for o11y-graphana
+Hello World for o11y-graylog
+Hello World for o11y-open-observe
+Hello World for o11y-prometheus
+Hello World for o11y-signoz
+Hello World for other-airflow
+Hello World for other-flink
+Hello World for other-graphql
+v0.0.1 for other-spark
+v0.0.1 for backend-dotnet
+v0.0.1 for backend-flask
+v0.0.1 for backend-spring-boot
+v0.0.1 for backend-ts
+v0.0.1 for db-mongodb
+v0.0.1 for db-postgres
+v0.0.1 for db-sqlite3
+v0.0.1 for devops-docker-compose
+v0.0.1 for devops-k8s
+v0.0.1 for frontend-admin-aspnet
+v0.0.1 for frontend-admin-blazor
+v0.0.1 for frontend-admin-electron
+v0.0.1 for frontend-admin-react
+v0.0.1 for frontend-client-android
+v0.0.1 for frontend-client-aspnet
+v0.0.1 for frontend-client-blazor
+v0.0.1 for frontend-client-electron
+v0.0.1 for frontend-client-ios
+v0.0.1 for frontend-client-react
+v0.0.1 for o11y-graphana
+v0.0.1 for o11y-graylog
+v0.0.1 for o11y-open-observe
+v0.0.1 for o11y-prometheus
+v0.0.1 for o11y-signoz
+v0.0.1 for other-airflow
+v0.0.1 for other-flink
+v0.0.1 for other-graphql
+v0.0.1 for other-kafka
+v0.0.1 for perftest

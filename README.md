@@ -10,6 +10,12 @@ Hobby/customer/portfolio
 
 ### What is going to make it valuable?
 
+## Cross-cutting Ideas
+
+* Essentially, everything becomes it's own Docker image. Without connecting such a container to a database, etc., it should spin up and be able to run in-memory-only unit tests. Each container ought to have sufficient configurability (via ENVVARs, perhaps) to ...
+* [OpenTelemetry](https://medium.com/otomi-platform/debugging-microservices-on-k8s-with-istio-opentelemetry-and-tempo-4c36c97d6099) and [Official Istio OTel Docs](https://istio.io/latest/docs/tasks/observability/distributed-tracing/opentelemetry/)
+
+
 ## User Stores
 
 1. Simple, short, user’s perspective. User centric. How does the app works for them.

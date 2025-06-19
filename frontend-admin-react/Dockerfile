@@ -1,5 +1,8 @@
 # syntax=docker.io/docker/dockerfile:1
 
+#To use this Dockerfile, run the following command in the terminal, for example:
+# docker build -t thephen/tt-$(basename $PWD):v0.0.0 .
+
 FROM node:18-alpine AS base
 LABEL version="0.0.0"
 

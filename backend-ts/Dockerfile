@@ -1,3 +1,6 @@
+#To use this Dockerfile, run the following command in the terminal, for example:
+# docker build -t thephen/tt-$(basename $PWD):v0.0.0 .
+
 #Build stage
 FROM node:16-alpine AS build
 WORKDIR /app

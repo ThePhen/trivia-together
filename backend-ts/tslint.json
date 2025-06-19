@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "indent": [ true, "spaces" ],
+        "trailing-comma": [ false ]
+    },
+    "rulesDirectory": [],
+    "target": "es2016",
+    "rootDir": "./src",
+    "outDir": "./dist"
+}

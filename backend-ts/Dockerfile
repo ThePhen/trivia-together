@@ -10,6 +10,8 @@ RUN npm run build
 
 #Production stage
 FROM node:16-alpine AS production
+LABEL com.thephen.trivia-together="backend-ts"
+LABEL version="0.0.0"
 WORKDIR /app
 COPY package*.json .
 ENV NODE_ENV=production

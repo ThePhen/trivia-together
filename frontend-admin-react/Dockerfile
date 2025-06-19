@@ -1,9 +1,11 @@
 # syntax=docker.io/docker/dockerfile:1
 
 FROM node:18-alpine AS base
+LABEL version="0.0.0"
 
 # Install dependencies only when needed
 FROM base AS deps
+LABEL version="0.0.0"
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
@@ -20,6 +22,7 @@ RUN \
 
 # Rebuild the source code only when needed
 FROM base AS builder
+LABEL version="0.0.0"
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
@@ -38,8 +41,9 @@ RUN \
 
 # Production image, copy all the files and run next
 FROM base AS runner
+LABEL version="0.0.0"
+LABEL com.thephen.trivia-together="frontend-admin-react"
 WORKDIR /app
-
 ENV NODE_ENV=production
 # Uncomment the following line in case you want to disable telemetry during runtime.
 # ENV NEXT_TELEMETRY_DISABLED=1

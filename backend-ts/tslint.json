@@ -8,5 +8,8 @@
         "indent": [ true, "spaces" ],
         "trailing-comma": [ false ]
     },
-    "rulesDirectory": []
+    "rulesDirectory": [],
+    "target": "es2016",
+    "rootDir": "./src",
+    "outDir": "./dist"
 }

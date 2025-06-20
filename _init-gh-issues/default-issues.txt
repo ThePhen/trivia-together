@@ -32,7 +32,7 @@ v0.0.1 for other-spark
 v0.0.1 for backend-dotnet
 v0.0.1 for backend-flask
 v0.0.1 for backend-spring-boot
-v0.0.1 for backend-ts
+v0.0.1 for backend-node-ts
 v0.0.1 for db-mongodb
 v0.0.1 for db-postgres
 v0.0.1 for db-sqlite3

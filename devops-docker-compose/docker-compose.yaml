@@ -1,7 +1,7 @@
 # version: '3.8'
 services:
-  backend-ts:
-    image: thephen/tt-backend-ts:v0.0.0
+  backend-node-ts:
+    image: thephen/tt-backend-node-ts:v0.0.0
     environment:
       NODE_ENV: production
     ports:

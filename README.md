@@ -192,24 +192,38 @@ Actually, this is probably a timeline. Hmm. About that.
 
 ### AWS Kinesis
 
+Will add in the future, likely as an alternative Kafka.
+
 ### Redpanda
+
+Will add in the future, likely as an alternative Kafka.
 
 ### Apache Spark
 
-### Apache Kafka
-
 ### GCP Dataflow
+
+Will add in the future.
 
 ### GCP Pub/Sub
 
+Will add in the future.
+
 ### AWS SQS
 
-### Apache AirFlow
-
-### Apache Flink
+Will add in the future.
 
 ### Informatica (DMS)
 
+Will add in the future.
+
 ### Azure Event Grid
 
+Will add in the future.
+
 ### Azure Event Hub
+
+Will add in the future.
+
+## And more
+
+Everything at this point, Jun 11 2025, is going to be k8s, and probably Helm. I'll redress Docker Compose after making k8s work first.
